@@ -20,6 +20,7 @@ main{
 .content{
 	width: 300px;
 	margin-right: 30px;
+	padding: 10px;
 	background-color: #eee;
 	position: relative;
 }
@@ -32,6 +33,7 @@ main{
 	background-color: #ff9a4b;
 	color: #fff;
 	position: absolute;
+	transform: translate(-10px, -10px);
 	z-index: 1;
 }
 
@@ -41,7 +43,6 @@ main{
 	position: relative;
 	background-size: cover;
 	background-position: center;
-	margin: 10px;
 }
 
 .img1{
@@ -78,8 +79,14 @@ footer{
 	}
 
 	.content{
+		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 20px;
+	}
+
+	.content-image{
+		width: 100%;
+		margin: auto;
 	}
 
 	.content:last-child{
